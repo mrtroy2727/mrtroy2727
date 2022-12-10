@@ -1,1 +1,162 @@
-<mxfile host="app.diagrams.net" modified="2022-12-10T08:27:04.660Z" agent="5.0 (Windows)" version="20.6.2" etag="N2qeUFcP3htqJ-PzZKXl" type="github"><diagram id="1mfTHOgUwwyRCxwt1AKA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-10T09:40:53.700Z" agent="5.0 (Windows)" version="20.6.2" etag="EG-kNb_lgc5IKkRMn2-V" type="github">
+  <diagram id="G4Ipju4bLF8DtLiGqTVV" name="Sayfa -1">
+    <mxGraphModel dx="806" dy="2191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-11" value="Abstract Word" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-30" width="360" height="372" as="geometry">
+            <mxRectangle x="100" y="40" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-12" value="+ question: String&#xa;+ word: String&#xa;+ word_ary: String[]&#xa;+ maxPoint: int&#xa;+ letterNumber: int&#xa;+ presentPoint: int&#xa;+ openedLetters: int[]&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-11">
+          <mxGeometry y="26" width="360" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-11">
+          <mxGeometry y="190" width="360" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-14" value="+ toString(): &#xa;+ openedLetter(type): type&#xa;+ stringToAry(String word): String[]&#xa;+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-11">
+          <mxGeometry y="252" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.603;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iX-OTO_NNu1wzyV2xDbR-20" target="iX-OTO_NNu1wzyV2xDbR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-20" value="Six_letter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="470" width="160" height="250" as="geometry">
+            <mxRectangle x="230" y="510" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-21" value="+ question: String&#xa;+ word: String&#xa;+ word_ary: String[]&#xa;+ maxPoint: int&#xa;+ letterNumber: int&#xa;+ presentPoint: int&#xa;+ openedLetters: int[]&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-20">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-20">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-23" value="+ toString(): &#xa;+ openedLetter(type): type&#xa;+ stringToAry(String word): String[]&#xa;+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-20">
+          <mxGeometry y="128" width="160" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-24" value="Game(main)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="280" height="270" as="geometry">
+            <mxRectangle x="230" y="510" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-25" value="+ dataBaseArray: String[]&#xa;+ wordSequence: Word[]&#xa;+ point: int&#xa;+ letterNumber: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-24">
+          <mxGeometry y="26" width="280" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-24">
+          <mxGeometry y="140" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-27" value="+ play(Word[] wS, Player p1): type&#xa;+ openLetter(type): type&#xa;+ maskedWord(type): type&#xa;+ wordSequenceCreator(type): Word[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-24">
+          <mxGeometry y="148" width="280" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.536;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iX-OTO_NNu1wzyV2xDbR-28" target="iX-OTO_NNu1wzyV2xDbR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-28" value="Five_letter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="470" width="160" height="250" as="geometry">
+            <mxRectangle x="230" y="510" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-29" value="+ question: String&#xa;+ word: String&#xa;+ word_ary: String[]&#xa;+ maxPoint: int&#xa;+ letterNumber: int&#xa;+ presentPoint: int&#xa;+ openedLetters: int[]&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-28">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-28">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-31" value="+ toString(): &#xa;+ openedLetter(type): type&#xa;+ stringToAry(String word): String[]&#xa;+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-28">
+          <mxGeometry y="128" width="160" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.492;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iX-OTO_NNu1wzyV2xDbR-32" target="iX-OTO_NNu1wzyV2xDbR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-32" value="Four_letter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="470" width="160" height="250" as="geometry">
+            <mxRectangle x="230" y="510" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-33" value="+ question: String&#xa;+ word: String&#xa;+ word_ary: String[]&#xa;+ maxPoint: int&#xa;+ letterNumber: int&#xa;+ presentPoint: int&#xa;+ openedLetters: int[]&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-32">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-32">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-35" value="+ toString(): &#xa;+ openedLetter(type): type&#xa;+ stringToAry(String word): String[]&#xa;+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-32">
+          <mxGeometry y="128" width="160" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-36" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="40" width="180" height="270" as="geometry">
+            <mxRectangle x="230" y="510" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-37" value="+ name: String&#xa;+ surname: String&#xa;+ point: int&#xa;-  Id_number: int (optional)&#xa;+ reward : int (dollars)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-36">
+          <mxGeometry y="26" width="180" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-36">
+          <mxGeometry y="140" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-39" value="+ method(type): type&#xa;+ method(type): type&#xa;+ method(type): type&#xa;+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-36">
+          <mxGeometry y="148" width="180" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.728;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iX-OTO_NNu1wzyV2xDbR-40" target="iX-OTO_NNu1wzyV2xDbR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-40" value="Seven_letter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="470" width="160" height="250" as="geometry">
+            <mxRectangle x="230" y="510" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-41" value="+ question: String&#xa;+ word: String&#xa;+ word_ary: String[]&#xa;+ maxPoint: int&#xa;+ letterNumber: int&#xa;+ presentPoint: int&#xa;+ openedLetters: int[]&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-40">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-40">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-43" value="+ toString(): &#xa;+ openedLetter(type): type&#xa;+ stringToAry(String word): String[]&#xa;+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-40">
+          <mxGeometry y="128" width="160" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-44" value="Eight_letter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="470" width="160" height="250" as="geometry">
+            <mxRectangle x="230" y="510" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-45" value="+ question: String&#xa;+ word: String&#xa;+ word_ary: String[]&#xa;+ maxPoint: int&#xa;+ letterNumber: int&#xa;+ presentPoint: int&#xa;+ openedLetters: int[]&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-44">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-46" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-44">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-47" value="+ toString(): &#xa;+ openedLetter(type): type&#xa;+ stringToAry(String word): String[]&#xa;+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-44">
+          <mxGeometry y="128" width="160" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-48" value="Nine_letter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="470" width="160" height="250" as="geometry">
+            <mxRectangle x="230" y="510" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-49" value="+ question: String&#xa;+ word: String&#xa;+ word_ary: String[]&#xa;+ maxPoint: int&#xa;+ letterNumber: int&#xa;+ presentPoint: int&#xa;+ openedLetters: int[]&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-48">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-48">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-51" value="+ toString(): &#xa;+ openedLetter(type): type&#xa;+ stringToAry(String word): String[]&#xa;+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-48">
+          <mxGeometry y="128" width="160" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-52" value="Ten_letter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="470" width="160" height="250" as="geometry">
+            <mxRectangle x="230" y="510" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-53" value="+ question: String&#xa;+ word: String&#xa;+ word_ary: String[]&#xa;+ maxPoint: int&#xa;+ letterNumber: int&#xa;+ presentPoint: int&#xa;+ openedLetters: int[]&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-52">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-52">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iX-OTO_NNu1wzyV2xDbR-55" value="+ toString(): &#xa;+ openedLetter(type): type&#xa;+ stringToAry(String word): String[]&#xa;+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iX-OTO_NNu1wzyV2xDbR-52">
+          <mxGeometry y="128" width="160" height="122" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
